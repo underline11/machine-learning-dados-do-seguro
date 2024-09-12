@@ -1,0 +1,21 @@
+Descrição do Projeto
+O projeto Análise de Dados de Seguro de Saúde tem como objetivo examinar um conjunto de dados coletados por uma empresa de seguros para identificar padrões, tendências e fatores que influenciam os encargos de seguro de saúde. A análise busca fornecer insights úteis para a empresa ajustar suas políticas de preços com base nas características dos segurados, como idade, sexo, IMC, número de filhos, hábito de fumar e região. O projeto utiliza técnicas de Análise Exploratória de Dados (EDA), Testes de Hipóteses e Modelagem Estatística para prever os custos associados aos seguros de saúde.
+
+Objetivos
+Análise Exploratória de Dados (EDA):
+
+Visualizar a distribuição das variáveis (idade, sexo, IMC, número de filhos, hábito de fumar e região).
+Identificar possíveis correlações entre essas variáveis e os encargos de seguro.
+Detectar padrões significativos que possam influenciar na precificação dos seguros.
+Teste de Hipóteses Estatísticas:
+
+Avaliar se há diferenças significativas nos encargos de seguro entre fumantes e não fumantes.
+Verificar se os encargos de seguro variam significativamente entre homens e mulheres.
+Modelagem Estatística:
+
+Criar um modelo de regressão linear para prever os encargos de seguro com base nos atributos dos segurados.
+Avaliar a precisão e a capacidade preditiva do modelo com métricas como R², erro médio absoluto (MAE) e erro quadrático médio (MSE).
+Geração de Insights:
+
+Identificar grupos de risco ou perfis de clientes que demandam ajustes nas políticas de preços.
+Fornecer recomendações baseadas nos dados para otimizar a estratégia de precificação da empresa.

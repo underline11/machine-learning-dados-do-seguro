@@ -1,0 +1,30 @@
+/analise-seguro-saude
+│
+├── data/
+│   ├── raw/                       # Dados brutos (ex.: arquivo CSV fornecido pela empresa)
+│   ├── processed/                 # Dados processados (ex.: dados após limpeza e transformação)
+│   └── exploratory_data.csv       # Dados utilizados durante a exploração
+│
+├── notebooks/
+│   ├── 01_EDA.ipynb               # Notebook com Análise Exploratória de Dados
+│   ├── 02_Testes_Hipoteses.ipynb  # Notebook com Teste de Hipóteses Estatísticas
+│   ├── 03_Modelagem_Regressao.ipynb  # Notebook com a Modelagem Estatística (Regressão Linear)
+│   └── 04_Conclusoes.ipynb        # Notebook contendo conclusões e recomendações
+│
+├── scripts/
+│   ├── data_preprocessing.py      # Script para pré-processamento dos dados
+│   ├── hypothesis_testing.py      # Script para os testes de hipóteses
+│   ├── regression_model.py        # Script para criar o modelo de regressão
+│   └── utils.py                   # Funções auxiliares
+│
+├── reports/
+│   ├── figures/                   # Gráficos e visualizações gerados durante a análise
+│   └── analysis_report.md         # Relatório final da análise
+│
+├── tests/
+│   └── test_regression_model.py    # Testes unitários para o modelo de regressão
+│
+├── requirements.txt               # Arquivo com as dependências do projeto
+├── README.md                      # Descrição geral do projeto
+├── LICENSE                        # Licença do projeto
+└── .gitignore                     # Arquivo .gitignore para ignorar arquivos desnecessários

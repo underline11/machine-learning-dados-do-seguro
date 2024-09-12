@@ -1,0 +1,15 @@
+Este projeto visa realizar uma análise abrangente de um conjunto de dados de seguro de saúde para uma empresa do setor. O objetivo é identificar padrões e insights que possam otimizar a estratégia de preços da empresa. Para alcançar esse objetivo, o projeto será dividido em três partes principais:
+
+Análise Exploratória de Dados (EDA):
+
+Visualizar a distribuição de variáveis como idade, sexo, IMC, número de filhos, fumante e região.
+Explorar a correlação entre essas variáveis e os encargos de seguro.
+Teste de Hipóteses Estatísticas:
+
+Avaliar se há diferenças significativas nos encargos entre fumantes e não fumantes.
+Verificar se os encargos variam significativamente entre homens e mulheres.
+Modelagem Estatística:
+
+Criar um modelo de regressão linear para prever os encargos do seguro com base nos atributos dos segurados.
+Avaliar a qualidade do modelo, incluindo métricas como R², erro médio absoluto e erro quadrático médio.
+O resultado esperado é um conjunto de insights acionáveis que ajudem a empresa a ajustar suas políticas de preços com base nas características dos segurados.

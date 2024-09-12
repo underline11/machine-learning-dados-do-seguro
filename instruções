@@ -1,0 +1,49 @@
+Siga os passos abaixo para configurar o ambiente e executar o projeto de análise de dados de segurança d
+
+1. Clone o Repositório
+Comece clonando o repositório do GitHub para sua máquina local. Use o seguinte comando no terminal ou prompt de
+git clone https://github.com/seuusuario/analise-seguro-saude.git
+2. Navegue até o Diretório do Projeto
+Após clonar o repositório, navegue até o diretório do projeto
+cd analise-seguro-saude
+3. Crie e Ative um Ambiente Virtual (opcional, mas recomendado)
+É
+
+Para sistemas Windows:
+python -m venv venv
+venv\Scripts\activate
+Pai
+python3 -m venv venv
+source venv/bin/activate
+4. Instalar as Dependências
+Com o ambiente virtual ativo, instale as dependências relacionadas no arquivo requirements.txt:
+pip install -r requirements.txt
+5. Baixe os Dados
+-se de que os dados brutos estão presentes na pasta data/raw/.
+
+6. Executar uma Análise Exploratória de Dados (EDA)
+Abra
+jupyter notebook
+Navegue até a pasta notebooks/e01_EDA.ipynb.
+
+7. Realizar os Testes de Hipóteses
+Após a EDA, navegue para o notebook02_Testes_Hipoteses.ipynbn / Dnotebooks/e
+
+8. Executar uma Modelagem de Regressão Linear
+Para construir e avaliar o modelo de regressão linear, abra o notebook03_Modelagem_Regressao.ipynbe executar
+
+9. Gerar o Relatório Final
+Após realizar uma análise, você pode gerar o relatório final no notebook 04_Conclusoes.ipynb, onde
+
+10. Executar os Scripts (opcional)
+Caso
+python scripts/data_preprocessing.py
+python scripts/hypothesis_testing.py
+python scripts/regression_model.py
+11. Desativar o Ambiente Virtual
+Após finalizar o trabalho, você pode desativar o ambiente virtual com o comando:
+deactivate
+Observações
+Teste o modelo : Caso queira validar o desempenho do modelo, você pode utilizar o script de testes unitários localizados na pasta tests/.
+Gráficos e Visualizações : Os gráficos gerados durante a análise são armazenados na pasta reports/figures/para fácil acesso.
+Atualizações de Dados : Se novos dados forem fornecidos pela empresa, basta substituir os arquivos na pasta data/raw/e reexecutar os notebooks.
